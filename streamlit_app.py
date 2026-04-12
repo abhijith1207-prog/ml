@@ -7,6 +7,6 @@ st.info('This app builds a machine learning model')
 
 with st.expander("Data", expanded=True):
     st.write("**raw data**")
-    df = pd.read_csv('https://raw.githubusercontent.com/abhijith1207-prog/ml/master/sample_ml.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/abhijith1207-prog/ml/refs/heads/master/sample-ml.csv')
     st.dataframe(df)
 
