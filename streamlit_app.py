@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.title('🎈 sample-ml')
+st.title('🎈ML-App')
 
 st.info('This app builds a machine learning model')
 
@@ -20,4 +20,10 @@ with st.expander("Data"):
 
 with st.expander("Data visualization", expanded=True):
     st.scatter_chart(data=df,x='bill_length_mm',y='body_mass_g',color='species')
+
+#data preparations
+
+with st.sidebar:
+    st.header('Input features')
+    
 
