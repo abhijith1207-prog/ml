@@ -8,5 +8,5 @@ with st.expander("Data"):
   
   st.write("**raw data"**)
   df=pd.read_csv("https://raw.githubusercontent.com/abhijith1207-prog/ml/refs/heads/master/sample-ml.csv")
-  st.write(df)
+  st.dataframe(df)
 
