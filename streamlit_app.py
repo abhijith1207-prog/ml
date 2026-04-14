@@ -45,6 +45,13 @@ with st.sidebar:
 
     input_penguins = pd.concat([input_df,X],axis=0)
 
+with st.extender('Input features'):
+    st.write('**Input penguin**')
+    input_df
+    st.write('**combined penguin data**')
+    input_penguins
+
+
     
 
 
